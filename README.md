@@ -25,3 +25,5 @@ python train.py --eval --models deit_tiny_patch16_224 --resume <checkpoint path>
 |:---:|:---:|:---:|:---:|:---:|
 | Paper | CaiT-XXS24 | 78.5 | DeiT-Tiny | 75.5 |
 | This Code | CaiT-XXS24 | 78.5 | DeiT-Tiny | 75.1 ([link](https://drive.google.com/file/d/142QnSh6sIxQxKiazS7Dv4VmWU9S5hzix/view?usp=sharing)) |
+
+*The trained model still has the potential to improve accuracy because the hyperparameters were wrong.
