@@ -102,7 +102,7 @@ def get_args_parser():
                         help='How to apply mixup/cutmix params. Per "batch", "pair", or "elem"')
 
     # Distillation parameters
-    parser.add_argument('--teacher-model', default='deit_small_patch16_224', type=str, help="")
+    parser.add_argument('--teacher-model', default='cait_XXS24_224', type=str, help="")
     parser.add_argument('--distillation-type', default='soft', choices=['none', 'soft', 'hard'], type=str, help="")
     parser.add_argument('--distillation-tau', default=1.0, type=float, help="")
     parser.add_argument('--lambda-cls', default=0.0, type=float, help="")
